@@ -1,6 +1,8 @@
 import Banner from "./Banner/Banner"
 import CaseStudies from "./CaseStudies/CaseStudies"
+import FAQ from "./FAQ/FAQ"
 import HowWeWork from "./HowWeWork/HowWeWork"
+import NewsAndArticles from "./NewsAndArtical/NewsAndArtical"
 import OurPrices from "./OurPriceing/OurPriceing"
 import OurWorks from "./OurWorks/OurWorks"
 import Services from "./Services/Services"
@@ -23,6 +25,8 @@ const HomePage = async () => {
         <WhyChooseUs></WhyChooseUs>
       </div>
       <CaseStudies></CaseStudies>
+      <NewsAndArticles></NewsAndArticles>
+       <FAQ></FAQ>
     </div>
   )
 }

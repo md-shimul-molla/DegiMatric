@@ -135,7 +135,9 @@ color: #29B473;
   height: 110vh;
 }
 
-
+.faq_number{
+  width: -webkit-fill-available;
+}
 
 
 /* error css  */
