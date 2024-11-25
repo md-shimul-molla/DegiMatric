@@ -123,6 +123,9 @@ color: #29B473;
   /* height: 100vh; */
   transition: background-image 2s ease; 
 }
+#sharedBanner{
+  height: 50vh;
+}
 .case_studies_left{
   background-image: url(../../public/assets/images/home/case-studies/case-studies-bg.png);
   background-repeat: no-repeat;

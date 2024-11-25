@@ -1,9 +1,16 @@
-import ContactUsPage from "@/app/Components/Pages/ContactUs/ContactUs"
+import ContactForm from "@/components/Pages/Home/ContactForm/ContactForm";
+import SharedBanner from "@/components/Shared/ShareBanner/ShareBanner";
+import TopGap from "@/components/Shared/TopGap/TopGap";
 const page = () => {
 
     return (
         <div className="">
-         <ContactUsPage></ContactUsPage>
+            <TopGap></TopGap>
+            <SharedBanner
+                title="Contact Us"
+                description="Explore insightful articles, tips, and stories about education, travel, and success to guide your journey abroad"
+            ></SharedBanner>
+            <ContactForm></ContactForm>
         </div>
     )
 }

@@ -1,38 +1,19 @@
-import Link from "next/link";
-import { IoIosArrowForward } from "react-icons/io";
 
-const ShareBanner = ({ bannerBg, title, link }) => {
+
+const SharedBanner = ({ title, description }) => {
   return (
-    <section>
-      <div
-        id="banner_section"
-        className="h-[20vh] md:h-[40vh]"
-        style={{
-          // height: "67vh",
-          backgroundImage: `url(${bannerBg.src})`,
-          backgroundPosition: "center",
-          backgroundSize: "cover",
-          backgroundRepeat: "no-repeat",
-        }}
-      ></div>
-      <div className="banner_bottom bg-[#252B421A] py-3 md:py-5">
-        <div className="main_container">
-          <p className="flex items-center gap-2 md:font-semibold text-sm">
-            <span>Home</span>
-            <span>
-              <IoIosArrowForward />
-            </span>
-            <Link className="capitalize" href={link}>
-              {link}
-            </Link>
-          </p>
-          <h2 className="text-xl md:text-2xl font-bold uppercase text-[#252B42] ">
+    <section id="sharedBanner" className="bg-secondary">
+      <div className="main_container h-full">
+        <div className="flex h-full flex-col items-center justify-center gap-5">
+          <h2 className="text-2xl md:text-4xl font-semibold capitalize text-white  ">
             {title}
           </h2>
+          <p className="w-full md:w-2/3 text-center text-[#E6E6E6] text-base md:text-lg">{description}</p>
         </div>
       </div>
+     
     </section>
   );
 };
 
-export default ShareBanner;
+export default SharedBanner;
