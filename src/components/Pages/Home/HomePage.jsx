@@ -1,5 +1,6 @@
 import Banner from "./Banner/Banner"
 import CaseStudies from "./CaseStudies/CaseStudies"
+import ContactForm from "./ContactForm/ContactForm"
 import FAQ from "./FAQ/FAQ"
 import HowWeWork from "./HowWeWork/HowWeWork"
 import NewsAndArticles from "./NewsAndArtical/NewsAndArtical"
@@ -26,7 +27,8 @@ const HomePage = async () => {
       </div>
       <CaseStudies></CaseStudies>
       <NewsAndArticles></NewsAndArticles>
-       <FAQ></FAQ>
+      <FAQ></FAQ>
+      <ContactForm></ContactForm>
     </div>
   )
 }

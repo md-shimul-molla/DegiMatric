@@ -1,9 +1,10 @@
 import { BsFillRocketTakeoffFill } from "react-icons/bs";
-
+import { LiaHourglassStartSolid } from "react-icons/lia";
+import { BiRevision } from "react-icons/bi";
 const HowWeWork = () => {
   const one = <BsFillRocketTakeoffFill />;
-  const two = <BsFillRocketTakeoffFill />;
-  const three = <BsFillRocketTakeoffFill />;
+  const two = <LiaHourglassStartSolid />;
+  const three = <BiRevision />;
   const data = [
     {
       id: 1,
@@ -13,14 +14,14 @@ const HowWeWork = () => {
     },
     {
       id: 1,
-      title: "Subscribe & get started",
-      icon: one,
+      title: "on time",
+      icon: two,
       des: "Submit as many design tasks as you need without worrying about individual project fees."
     },
     {
       id: 1,
-      title: "Subscribe & get started",
-      icon: one,
+      title: "Revisions made simple",
+      icon: three,
       des: "Submit as many design tasks as you need without worrying about individual project fees."
     },
   ]

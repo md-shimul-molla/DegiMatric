@@ -77,12 +77,12 @@ const FAQ = () => {
               onClick={() => toggleFAQ(faq.id)}
             >
               <div className="flex justify-between items-center">
-                <h2
-                  className={`text-xl font-medium ${activeFAQ === faq.id ? "text-green-400" : "text-white"
+                <h4
+                  className={`font-semibold ${activeFAQ === faq.id ? "text-green-400" : "text-white"
                     }`}
                 >
                   {faq.id < 10 ? `0${faq.id}` : faq.id}. {faq.question}
-                </h2>
+                </h4>
                 <span
                   className={`text-2xl ${activeFAQ === faq.id ? "text-green-400" : "text-gray-400"
                     }`}
@@ -91,7 +91,7 @@ const FAQ = () => {
                 </span>
               </div>
               {activeFAQ === faq.id && (
-                <p className="mt-3 text-gray-300">{faq.answer}</p>
+                <p className="mt-1 md:mt-3 text-gray-300">{faq.answer}</p>
               )}
             </div>
           ))}

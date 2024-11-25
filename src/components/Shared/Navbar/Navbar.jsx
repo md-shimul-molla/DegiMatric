@@ -135,7 +135,7 @@ const Navbar = () => {
   ];
 
   return (
-    <nav className={`z-10  w-full fixed top-0 left-0 right-0 py-3 lg:py-0 pt-5 ${isSticky ? " bg-secondary nav_shadow" : "bg-[#00000000] "}`}>
+    <nav className={`z-50  w-full fixed top-0 left-0 right-0 py-3 lg:py-0 pt-5 ${isSticky ? " bg-secondary nav_shadow" : "bg-[#00000000] "}`}>
     <div className={`main_container flex justify-between items-center  ${isSticky ? "" : "navber_border"}`}>
       {/* Logo side here >>>>>>>>>>>>>>>> */}
       <div className="">
